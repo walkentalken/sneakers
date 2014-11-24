@@ -1,0 +1,371 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Fluid Grid
+2.0 - Header
+3.0 - Footer
+4.0 - Schedule Page
+5.0 - Schedule Widget
+6.0 - Sidebar
+7.0 - Homepage
+8.0 - Video Player
+9.0 - Slideshow
+10.0 - Film/Series detail page
+11.0 - Index pages
+12.0 - IE8 Styles
+--------------------------------------------------------------*/
+
+body{
+	background-color: #282828;
+	background-image: url('../images/site_back_repeat.png');
+	background-repeat: repeat-y;
+	background-position: top center; 
+	height: 100%;
+	width: 100%;
+}
+
+/* 1.0 Fluid Grid */
+
+#content,
+header,
+footer{
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.site-content{
+	min-height: 700px;
+}
+
+.indexContainer{
+	position: relative;
+}
+
+.row-fluid{
+	clear: both;
+	padding-top: 5px;
+	position: relative;
+	overflow: hidden; /* clearfix */
+}
+
+.filmWrapper,
+.seriesWrapper{
+	clear: both;
+	position: relative;
+	border-top: 1px solid #9b0707;
+}
+
+.span8{
+	padding-right: 360px;
+	margin-left: 0%;
+}
+
+.span4{
+	width: 360px;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+.span3{
+	float: left;
+	margin-right: 2%;
+	width: 20%;
+}
+
+.tout3{
+	float: left;
+	margin-right: 2%;
+	width: 31%;
+}
+
+.tout4{
+	float: left;
+	margin-right: 2%;
+	width: 31%;
+}
+
+/* END 1.0 Fluid Grid */
+
+
+/* 2.0 Header */
+
+
+/* END 2.0 Header */
+
+
+/* 3.0 Footer */
+
+footer{
+	padding-top: 6%;
+}
+
+
+
+/* END 3.0 Footer */
+
+
+.row-fluid .span3 a p{
+	word-wrap:break-word;
+}
+
+
+/* 4.0 Schedule Page */
+
+
+
+/* END 4.0 Schedule Page */
+
+
+
+
+/* 5.0 Schedule Widget */
+
+
+/* END 5.0 Schedule Widget */
+
+/* 6.0 Sidebar */
+
+.SidebarAdContainer{
+	padding: 25px;
+}
+
+.socialContainer{
+	padding:0px 25px;
+}
+
+.socialContainer h2{
+	color: #959595;
+	font-size: 1.3em;
+}
+
+.lastestBlogContainer{
+	padding: 0px 35px 0 25px;
+}
+
+.sidebarAdMargin h5{
+	text-align: center;
+	color: #2f2f2f;
+	font-size: 0.8em;
+	margin-bottom: 10px;
+}
+
+.sidebarBlogItem{
+	border: 1px solid #252422;
+	margin-bottom: 5%;
+}
+
+.sidebarBlogItem .sbTitle{
+	padding: 10px;
+	font-size: 1.5em;
+	display: block;
+}
+
+/* END 6.0 Sidebar */
+
+
+/* 7.0 - Homepage */
+
+.home #main .featuredSeries:first-child{
+	margin-top: 5.2%;
+}
+
+.home #main .featuredSeries{
+	margin-bottom: 5%;
+}
+
+.home .span4{
+	margin-top: 3%;
+}
+
+.tout4 a,
+.tout3 a{
+	color: #e2e2e2;
+	word-wrap: break-word;
+}
+
+.tout4 a:hover,
+.tout3 a:hover{
+	color: #fff;
+}
+
+
+/* END 7.0 - Homepage */
+
+
+
+/* 8.0 Video Player */
+
+
+/* END 8.0 Video Player */
+
+
+
+
+
+
+
+/* 9.0 - Slideshows */
+#main .galleria-theme-azur .galleria-info-description{
+	margin: 0;
+	padding: 2%;
+}
+
+#galleria{
+	margin-bottom: 3%;
+}
+
+#galleria .galleria-images .galleria-image img{
+	top: 0px !important;
+}
+
+
+/* END 9.0 - Slideshow */
+
+
+
+/* 10.0 - Film/Series Detail Page */
+
+
+
+/* END 10.0 - Film/Series Detail Page */
+
+
+
+
+/* 11.0 - Index Pages */
+
+.post h1.entry-title{
+	font-size: 2em;
+}
+
+.archive .page-header h2{
+	font-size: 2.5em;
+	margin-bottom: 3%;
+}
+
+.archive article{
+	overflow: hidden;
+	margin-bottom: 5%;
+	padding-right: 3%;
+}
+
+.archive article .artThumb{
+	float: left;
+	width: 29%;
+	margin-right: 4%;
+	margin-top: 9px;
+}
+
+.archive article .artThumb img{
+	border: 1px solid #4a4a4a;
+}
+
+.archive article .entry-title,
+.archive article .entry-title a{
+	font-size: 1.4em;
+	color: #fff;
+	clear: none;
+}
+
+.archive article .entry-meta,
+.archive article .entry-meta span,
+.archive article .entry-meta a{
+	color: #666666;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.archive article .artDesc{
+	font-size: 1em;
+	margin-top: 2%;
+}
+
+.archive article .artDesc p{
+	margin-bottom: 2%;
+	margin-left: 33%;
+}
+
+.archive .readMoreCust{
+	display: inline-block;
+	background: #8a0404;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 5px;
+}
+
+.archive .paging-navigation .nav-links a{
+	background: #ffe570;
+	background: -moz-linear-gradient(top,  #ffe570 0%, #fde970 50%, #f5d469 51%, #e8c96e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe570), color-stop(50%,#fde970), color-stop(51%,#f5d469), color-stop(100%,#e8c96e));
+	background: -webkit-linear-gradient(top,  #ffe570 0%,#fde970 50%,#f5d469 51%,#e8c96e 100%);
+	background: -o-linear-gradient(top,  #ffe570 0%,#fde970 50%,#f5d469 51%,#e8c96e 100%);
+	background: -ms-linear-gradient(top,  #ffe570 0%,#fde970 50%,#f5d469 51%,#e8c96e 100%);
+	background: linear-gradient(to bottom,  #ffe570 0%,#fde970 50%,#f5d469 51%,#e8c96e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe570', endColorstr='#e8c96e',GradientType=0 );
+	display: inline-block;
+	padding: 5px 10px;
+	color: #000;
+	border:1px solid #000;
+	float: left;
+	margin-right: 10px;
+}
+
+.archive .paging-navigation .nav-links a span{
+	color: #000;
+}
+
+.category-blog .bfInfo{
+	background: #161616;
+	border: 1px solid #282828;
+	padding: 2% 4%;
+}
+
+.category-blog .bfInfo h2{
+	color: #fff;
+	font-size: 2em;
+}
+
+.category-blog .entry-meta,
+.category-blog .entry-meta .artAuth,
+.category-blog .entry-meta span, 
+.category-blog .entry-meta a{
+	color: #666666;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.category-blog .bfContainer .blogFeatured .bfContent{
+	color: #fff;
+	font-size: 1em;
+}
+
+.archive.category-blog .page-header h2{
+	margin-top: 5%;
+}
+
+
+/* END 11.0 - Index Pages */
+
+
+.galleria-image-nav-right{
+	background-image: url(../images/arrow-circle-right.png) !important;
+	background-position: top left !important;
+	background-repeat: no-repeat !important;
+	height: 39px !important;
+	width: 39px !important;
+}
+
+.galleria-image-nav-left{
+	background-image: url(../images/arrow-circle-left.png) !important;
+	background-position: top left !important;
+	background-repeat: no-repeat !important;
+	height: 39px !important;
+	width: 39px !important;
+}
+
+/* 12.0 IE8 Styles */
+
+
+/* END 12.0 IE8 Styles */

@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px) {
+
+	.span8{
+		width: 90%;
+		padding-right: 0px;
+	}
+
+	.span4{
+		width: 100%;
+		position: relative;
+		clear: both;
+	}
+	
+}
